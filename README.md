@@ -1,4 +1,4 @@
-# Gatsby Authentication Demo
+# Gatsby Firebase Authentication
 
 This is a simplified demo to show how an authentication workflow is implemented in Gatsby.
 

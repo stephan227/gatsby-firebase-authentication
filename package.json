@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-demo-simple-auth",
-  "description": "Gatsby demo of simplified authentication flow.",
+  "name": "gatsby-firebase-auth",
+  "description": "Gatsby Fireabase Auth.",
   "version": "1.0.0",
-  "author": "Jason Lengstorf <jason@lengstorf.com>",
+  "author": "Stephan<sbochet2@gmail.com>",
   "dependencies": {
     "firebase": "^5.5.3",
     "gatsby": "^2.0.0",
