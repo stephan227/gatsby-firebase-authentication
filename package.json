@@ -2,6 +2,7 @@
   "name": "gatsby-firebase-auth",
   "description": "Gatsby Fireabase Auth.",
   "version": "1.0.0",
+  "private": true,
   "author": "Stephan<sbochet2@gmail.com>",
   "dependencies": {
     "firebase": "^5.5.3",
