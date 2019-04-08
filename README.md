@@ -29,7 +29,7 @@ Run
 
 ## Deploy
 
-Deploy the app using [Now](https://zeit.co/now)
+Deploy the app using [Now](https://github.com/zeit/now-cli).  
 
 Run
 
