@@ -1,8 +1,6 @@
 # Gatsby Firebase Authentication
 
-This is a simplified demo to show how to authenticate Firebase in Gatsby. It uses Google Firebase for authentication, the UI workflow Authentication is handled by [Firebaseui-web-react](https://github.com/firebase/firebaseui-web-react).
-
-This demo is derived from the [simple-auth](https://github.com/gatsbyjs/gatsby/tree/master/examples/simple-auth) gatsby example.
+This is a simplified demo to show how to authenticate Firebase in Gatsby V2. It uses Google Firebase for authentication, the UI workflow Authentication is handled by [Firebaseui-web-react](https://github.com/firebase/firebaseui-web-react).
 
 
 ## Demo
@@ -11,11 +9,13 @@ This demo is derived from the [simple-auth](https://github.com/gatsbyjs/gatsby/t
 
 
 ## Prerequisites
-[Firebase] (https://github.com/firebase/firebase-js-sdk) version 5.5.3
+* [Gatsby] (https://github.com/gatsbyjs/gatsby) version greater than 2.0.
 
-The currently supported NodeJS versions for this firebase versions is greater than 8.0.0 and less than 10.0.0. 
+* [Firebase] (https://github.com/firebase/firebase-js-sdk) version 5.5.3
 
-Configured firebase Account with client ID.
+* The currently supported NodeJS versions for this firebase versions is greater than 8.0.0 and less than 10.0.0. 
+
+* Configured firebase Account with client ID.
 
 ## Installation
 Replace the Firebase web API config in the following file `/src/services/firebase.js`

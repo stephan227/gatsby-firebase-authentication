@@ -1,8 +1,7 @@
 {
   "name": "gatsby-firebase-auth",
-  "description": "Gatsby Fireabase Auth.",
+  "description": "Gatsby Fireabase Auth using FirebaseUi react workflow.",
   "version": "1.0.0",
-  "private": true,
   "author": "Stephan<sbochet2@gmail.com>",
   "dependencies": {
     "firebase": "5.5.3",
@@ -15,7 +14,10 @@
     "react-helmet": "^5.2.0"
   },
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "firebase",
+    "firebase-atuhentication",
+    "firebaseui"
   ],
   "license": "MIT",
   "scripts": {
