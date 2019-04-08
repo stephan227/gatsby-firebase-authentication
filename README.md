@@ -25,13 +25,10 @@ Replace the Firebase web API config in the following file `/src/services/firebas
 
 Run 
 
-`
-
     $ npm install
 
     $ gatsby develop
 
-`
 
 ## Deploy
 
@@ -39,7 +36,5 @@ Deploy the app using [Now](https://zeit.co/now)
 
 Run
 
-`
-
     $ now
-`
+
