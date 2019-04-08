@@ -11,9 +11,9 @@ const App = (props) => (
   <Layout {...props}>
     <Status auth={props.auth} user={props.user} />
     <Router>
+      <Login {...props} path="/app/login" />
       <PrivateRoute user={props.user} path="/app/profile" component={Home} />
       <PrivateRoute user={props.user} path="/app/details" component={Details} />
-      <Login {...props} path="/app/login" />
     </Router>
   </Layout>
 )
