@@ -1,27 +1,22 @@
-// ./src/services/firebase.js
-import firebase from "firebase"
-// import "firebase/firestore"
+import * as firebase from 'firebase/app';
 
+import 'firebase/auth';
+
+// Configure Firebase.
 const config = {
-// apiKey: ,
-// authDomain: ,
-// databaseURL: ,
-// projectId: ,
-// storageBucket: ,
-// messagingSenderId: ,
-}
+  apiKey: "AIzaSyANGDjrAgRtnrr99fYf8K8SkcBhcXAZ-UY",
+  authDomain: "sbreaker-d5010.firebaseapp.com",
+  //databaseURL: "",
+  projectId: "sbreaker-d5010",
+  // storageBucket: "",
+  // messagingSenderId: ""
+};
 
 class Firebase {
   constructor() {
     firebase.initializeApp(config);
-    // this.store = firebase.firestore;
     this.auth = firebase.auth;
   }
-
-
-  // get polls() {
-  //   return this.store().collection('polls');
-  // }
 }
 
 export default new Firebase();

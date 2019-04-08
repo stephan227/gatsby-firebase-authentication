@@ -1,13 +1,12 @@
 import React from "react"
 import View from "./View"
-import { getCurrentUser } from "../utils/auth"
 
-const Home = () => {
-  const { name } = getCurrentUser()
+const Home = ({user}) => {
+  const { displayName } = user;
 
   return (
     <View title="Your Profile">
-      <p>Welcome back, {name}!</p>
+      <p>Welcome back, {displayName}!</p>
     </View>
   )
 }

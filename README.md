@@ -1,16 +1,27 @@
 # Gatsby Firebase Authentication
 
-This is a simplified demo to show how an authentication workflow is implemented in Gatsby.
+This is a simplified demo to show how to authenticate Firebase in Gatsby.
 
-The short version is:
+This demo is derived from the [simple-auth](https://github.com/gatsbyjs/gatsby/tree/master/examples/simple-auth) gatsby example.
 
-- Gatsby statically renders all unauthenticated routes as usual
-- Authenticated routes are whitelisted as client-only
-- Logged out users are redirected to the login page if they attempt to visit private routes
-- Logged in users will see their private content
+It uses Google Firebase for authentication. 
 
-## A Note About Security
+The UI Authentication is handled by [Firebaseui-web-react](https://github.com/firebase/firebaseui-web-react).
 
-This example is less about creating an example of secure, production-ready authentication, and more about showing Gatsby's ability to support dynamic content in client-only routes.
 
-For production-ready authentication solutions, take a look at [Auth0](https://auth0.com) or [Passport.js](http://www.passportjs.org/). Rolling a custom auth system is hard and likely to have security holes. Auth0 and Passport.js are both battle tested and widely used.
+## Prerequisites
+[Firebase] (https://github.com/firebase/firebase-js-sdk) version 5.5.3
+
+NodeJS. The currently supported NodeJS versions for this firebase versions are 8.0.0 or greater, but smaller than 10.0.0.
+
+Configured firebase Account with client ID.
+
+## Installation
+Replace the Firebase web API config in the following file `/src/services/firebase.js`
+
+Run 
+`
+  $ npm install
+  $ gatsby develop
+`
+

@@ -4,9 +4,9 @@ import Layout from "../components/Layout"
 import View from "../components/View"
 import Status from "../components/Status"
 
-const Index = () => (
+const Index = (props) => (
   <Layout>
-    <Status />
+    <Status auth={props.auth}  user={props.user}  />
     <View title="Simple Authentication Example">
       <p>
         This is a simple example of creating dynamic apps with Gatsby that

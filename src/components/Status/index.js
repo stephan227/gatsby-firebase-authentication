@@ -1,11 +1,11 @@
 import React from "react"
-import { Link, navigate } from "@reach/router"
-import { getCurrentUser, isLoggedIn, logout } from "../../utils/auth"
+import { Link } from "@reach/router"
 import styles from "./status.module.css"
 
-export default () => {
+export default (props) => {
+  const { user } = props;
   let details
-  if (!isLoggedIn()) {
+  if (!user) {
     details = (
       <p className={styles[`status__text`]}>
         To get the full app experience, you’ll need to
@@ -14,18 +14,18 @@ export default () => {
       </p>
     )
   } else {
-    const { name, email } = getCurrentUser()
-
+    const { displayName, email } = user;
+    const { auth } = props;
     details = (
       <p className={styles[`status__text`]}>
-        Logged in as {name} ({email}
+        Logged in as {displayName} ({email}
         )!
         {` `}
         <a
           href="/"
           onClick={event => {
             event.preventDefault()
-            logout(() => navigate(`/app/login`))
+            auth().signOut()
           }}
         >
           log out

@@ -1,16 +1,14 @@
 import React from "react"
 import View from "./View"
-import { getCurrentUser } from "../utils/auth"
 
-const Details = () => {
-  const { name, legalName, email } = getCurrentUser()
-
+const Details = ({user}) => {
+  const { displayName, email, emailVerified } = user;
   return (
     <View title="Your Details">
       <ul>
-        <li>Preferred name: {name}</li>
-        <li>Legal name: {legalName}</li>
+        <li>Display name: {displayName}</li>
         <li>Email address: {email}</li>
+        <li>Email Verified: {`${emailVerified}`}</li>
       </ul>
     </View>
   )
