@@ -1,12 +1,9 @@
 # Gatsby Firebase Authentication
 
-This is a simplified demo to show how to authenticate Firebase in Gatsby.
+This is a simplified demo to show how to authenticate Firebase in Gatsby. It uses Google Firebase for authentication, the UI workflow Authentication is handled by [Firebaseui-web-react](https://github.com/firebase/firebaseui-web-react).
 
 This demo is derived from the [simple-auth](https://github.com/gatsbyjs/gatsby/tree/master/examples/simple-auth) gatsby example.
 
-It uses Google Firebase for authentication. 
-
-The UI Authentication is handled by [Firebaseui-web-react](https://github.com/firebase/firebaseui-web-react).
 
 ## Demo
 
