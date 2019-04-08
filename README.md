@@ -8,6 +8,10 @@ It uses Google Firebase for authentication.
 
 The UI Authentication is handled by [Firebaseui-web-react](https://github.com/firebase/firebaseui-web-react).
 
+## Demo
+
+[Demo](https://gatsby-firebase-authentication.sbr22.now.sh/).
+
 
 ## Prerequisites
 [Firebase] (https://github.com/firebase/firebase-js-sdk) version 5.5.3

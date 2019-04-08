@@ -9,14 +9,13 @@ const Index = (props) => (
     <Status auth={props.auth}  user={props.user}  />
     <View title="Simple Authentication Example">
       <p>
-        This is a simple example of creating dynamic apps with Gatsby that
-        require user authentication. It uses concepts from the
-        {` `}
-        <a href="https://www.gatsbyjs.org/docs/building-apps-with-gatsby/#client-only-routes">
-          client-only routes section
-        </a>
-        {` `}
-        of the “Building Apps with Gatsby” documentation.
+        This is a simple example of Gatsby Firebase Authentication using FirebaseUI-web-react with redirect.
+      </p>
+      <p>
+
+      <a href="https://github.com/stephan227/gatsby-firebase-authentication">
+        Gatsby Firebase Authentication Github repo
+      </a>
       </p>
       <p>
         For the full experience, go to

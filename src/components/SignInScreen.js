@@ -20,6 +20,7 @@ class SignInScreen extends React.Component {
         auth.EmailAuthProvider.PROVIDER_ID
       ]
     };
+    
     return (
       <div>
         <h1>My App</h1>
