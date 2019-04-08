@@ -25,3 +25,11 @@ Run
   $ gatsby develop
 `
 
+## Deploy
+
+Deploy the app using [Now](https://zeit.co/now)
+
+Run
+`
+  $ now
+`
