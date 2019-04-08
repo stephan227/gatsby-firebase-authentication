@@ -12,7 +12,7 @@ The UI Authentication is handled by [Firebaseui-web-react](https://github.com/fi
 ## Prerequisites
 [Firebase] (https://github.com/firebase/firebase-js-sdk) version 5.5.3
 
-NodeJS. The currently supported NodeJS versions for this firebase versions are 8.0.0 or greater, but smaller than 10.0.0.
+The currently supported NodeJS versions for this firebase versions is greater than 8.0.0 and less than 10.0.0. 
 
 Configured firebase Account with client ID.
 
@@ -20,9 +20,13 @@ Configured firebase Account with client ID.
 Replace the Firebase web API config in the following file `/src/services/firebase.js`
 
 Run 
+
 `
-  $ npm install
-  $ gatsby develop
+
+    $ npm install
+
+    $ gatsby develop
+
 `
 
 ## Deploy
@@ -30,6 +34,8 @@ Run
 Deploy the app using [Now](https://zeit.co/now)
 
 Run
+
 `
-  $ now
+
+    $ now
 `
